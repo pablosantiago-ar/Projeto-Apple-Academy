@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="19574" systemVersion="21D62" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="MapEntity" representedClassName="MapEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="cidade" optional="YES" attributeType="String"/>
+        <attribute name="estado" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="lat" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="long" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="numero" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="rua" optional="YES" attributeType="String"/>
+        <attribute name="userLat" optional="YES" attributeType="String"/>
+        <attribute name="userLong" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="UserLocationEntity" representedClassName="UserLocationEntity" syncable="YES" codeGenerationType="class"/>
+    <elements>
+        <element name="MapEntity" positionX="-54" positionY="-9" width="128" height="164"/>
+        <element name="UserLocationEntity" positionX="-54" positionY="45" width="128" height="29"/>
+    </elements>
+</model>
